@@ -1,0 +1,9 @@
+backend-server.log
+frontend-server.log
+composer.phar
+
+frontend/.env.local
+frontend/.next/
+frontend/node_modules/
+
+*.log

@@ -1,0 +1,24 @@
+{
+  "name": "doctors-chamber-frontend",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "clean": "node -e \"try { require('fs').rmSync('.next', { recursive: true, force: true }); console.log('Removed .next'); } catch (e) { console.log('No .next to remove'); }\"",
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "15.5.14",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.27",
+    "eslint": "^8.57.1",
+    "eslint-config-next": "^15.5.14",
+    "postcss": "^8.5.8",
+    "tailwindcss": "^3.4.19"
+  }
+}
